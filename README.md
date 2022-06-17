@@ -5,9 +5,9 @@ Information Gathering From The WebSite... Very Good Tools...
 
 # How To Installition
 * ` git clone https://github.com/MhnXp/WebHunter.git `
-* * `cd WebHunter`
-* * `pip install -r requirments.txt`
-* * `python WebHunter.py`
+*  `cd WebHunter`
+*  `pip install -r requirments.txt`
+*  `python WebHunter.py`
 
 
 # Description
