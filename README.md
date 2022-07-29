@@ -1,5 +1,5 @@
 # WebHunter
-Information Gathering From The WebSite... Very Good Tools...
+Information Gathering From The WebSite...
 
 ![Program Environment](http://www.upsara.com/images/g364574_.png)
 
