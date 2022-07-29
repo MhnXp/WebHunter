@@ -7,6 +7,7 @@ from time import sleep
 from colorama import Fore as color
 import os,sys
 import json
+from urllib.parse import urlparse
 
 os.system("cls")
 print(color.LIGHTRED_EX+"""
@@ -39,7 +40,7 @@ print("")
 print(color.RED+"[3] --Inscure Http Header")
 sleep(0.1)
 print("")
-print(color.RED+"[4] --Web Req Robots.txt ")
+print(color.RED+"[4] --Directory Finder ")
 sleep(0.1)
 print("")
 print(color.RED+"[5] --To Finder Server WebSite")
@@ -48,7 +49,10 @@ print("")
 print(color.RED+"[6] --WAF")
 sleep(0.1)
 print("")
-print(color.RED+"[7] --LOGOUT--")
+print(color.RED+"[7] --Parse Url--")
+sleep(0.1)
+print("")
+print(color.RED+"[8] --LOGOUT--")
 sleep(0.1)
 print("")
 
@@ -167,7 +171,7 @@ elif "4" in number:
     'MAINTAINERS.txt','user/password/','node/add/',
     'INSTALL.sqlite.txt','UPGRADE.txt','INSTALL.mysql.txt']
 
-    print(color.YELLOW+"Extracts The robots.txt File")
+    print(color.YELLOW+"Extracts The Dirctory")
     print('')
     url = input(color.GREEN+"Enter The WebSite Name "+"Using  " + color.RED+"Https:// >>  : ")
 
@@ -200,7 +204,7 @@ elif "5" in number:
         print(color.YELLOW + i[0])
 
 elif "6" in number:
-    print(color.YELLOW+"Waf")
+    print(color.YELLOW+"Web-Application-Firewall")
     print("")
     req = input(color.GREEN+"Enter The WebSite Name "+"Using  " + color.RED+"Https:// >>  : ")
 
@@ -210,6 +214,11 @@ elif "6" in number:
     print(waf_.ll)
 
 elif "7" in number:
+    url = input("Enter The Full Path Example=> http://google.com/example/#mahan : ")
+    urlParse = urlparse(url)
+    print(urlParse)
+
+elif "8" in number:
 
     print(color.CYAN+"Thank You For Choosing The Tool! By By...")
 
