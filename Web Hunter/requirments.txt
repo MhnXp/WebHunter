@@ -1,2 +1,2 @@
 requests
-pycopy-urllib.parse
+urllib3
